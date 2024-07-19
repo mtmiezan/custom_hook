@@ -8,7 +8,7 @@ const FetchYogaData = () => {
     return (
         <>
             <ul className='list_data_main'>
-                {data && data.map(e=> {
+                {data && data.map(e => (
                     <>
                         <li className='list_data'>
                             <h3>{e.name}</h3>
@@ -16,8 +16,7 @@ const FetchYogaData = () => {
                             <p><strong>Time duration: </strong>{e.time_duration}</p>
                         </li>
                     </>
-                })
-                }
+                ))}
             </ul>
 
         </>

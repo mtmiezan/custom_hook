@@ -5,7 +5,7 @@ import FetchYogaData from './Components/FetchYogaData'
 function App() {
   return (
  <>
- <FetchData/>
+ {/* <FetchData/> */}
  <FetchYogaData/>
  </>
   )
